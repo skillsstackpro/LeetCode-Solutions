@@ -17,19 +17,19 @@ import java.util.Arrays;
             return new int[] {};
         }
 
-//    public class Main {
-//        public static void main(String[] args) {
-//            _01_Twosum_hastable solution = new _01_Twosum_hastable();
-//            int[] nums = {2, 7, 11, 15};
-//            int target = 9;
-//            int[] result = solution.twoSum(nums, target);
-//            if (result.length == 2) {
-//                System.out.println("Output: " + Arrays.toString(result));
-//                // Iska output aayega: Output: [0, 1]
-//            } else {
-//                System.out.println("Koi solution nahi mila.");
-//            }
-//        }
-//    }
+    public class Main {
+        public static void main(String[] args) {
+            _01_Twosum_hastable solution = new _01_Twosum_hastable();
+            int[] nums = {2, 7, 11, 15};
+            int target = 9;
+            int[] result = solution.twoSum(nums, target);
+            if (result.length == 2) {
+                System.out.println("Output: " + Arrays.toString(result));
+                // Iska output aayega: Output: [0, 1]
+            } else {
+                System.out.println("Koi solution nahi mila.");
+            }
+        }
+    }
 
 }
