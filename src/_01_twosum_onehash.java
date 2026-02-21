@@ -14,5 +14,12 @@ public class _01_twosum_onehash {
         }
         return new int[] {};
     }
-    
+    public static void main(String[] args) {
+        // Test Data
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+        _01_twosum_onehash solver = new _01_twosum_onehash();
+        int[] result = solver.twoSum(nums, target);
+        System.out.println("Output: " + Arrays.toString(result));
+    }
 }
