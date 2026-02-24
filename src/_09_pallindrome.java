@@ -13,4 +13,13 @@ public class _09_pallindrome {
             return original == reversed;
         }
         
+    public static void main(String[] args) {
+        _09_pallindrome sol = new _09_pallindrome();
+        int [] numbers={121,-121,10,0};
+
+        for(int i=0;i<numbers.length;i++){
+            boolean result =sol.isPalindrome(i);
+            System.out.println("is " + i + " a palindrome? " + result);
+        }
+    }
 }
