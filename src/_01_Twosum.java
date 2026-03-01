@@ -20,9 +20,5 @@ public class _01_Twosum {
         _01_Twosum solver = new _01_Twosum();
         int [] result =solver.twoSum(nums,target);
         System.out.println("output : "+ Arrays.toString(result));
-
-
-
     }
-
 }
