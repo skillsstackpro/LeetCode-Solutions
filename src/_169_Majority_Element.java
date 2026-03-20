@@ -20,4 +20,5 @@ public class _169_Majority_Element {
         int result =sol.majorityElement(nums);
         System.out.println("in majority element is : " +result);
     }
+    
 }
