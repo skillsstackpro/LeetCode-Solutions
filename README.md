@@ -6,3 +6,4 @@ day 5 09_solved pallindorme problem.
 day 6 119_pascal triangle
 day 7 169_majority element
 day 8 1784_check if binary string has at most one segment of ones.
+day 9
