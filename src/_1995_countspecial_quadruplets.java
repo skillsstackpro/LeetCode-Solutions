@@ -12,7 +12,6 @@ public class _1995_countspecial_quadruplets {
                 }
             }
         }
-
         return count;
     }
 
@@ -21,6 +20,6 @@ public class _1995_countspecial_quadruplets {
         _1995_countspecial_quadruplets sol = new _1995_countspecial_quadruplets();
 
         System.out.println("array is {1,2,3,6}");
-        System.out.println("Total quadruplets "+sol.countQuadruplets(nums));
+        System.out.println("Total quadruplets  is "+sol.countQuadruplets(nums));
     }
 }
